@@ -23,14 +23,15 @@ input {
 
 .wrapper h1 {
   padding-top: 3.33333%;
-  font-size: 2.66667rem;
+  font-size: 4vw;
 }
 
 .wrapper select {
   display: block;
+  width: 60%;
   margin: 5% auto;
   border: 1px solid #999;
-  font-size: 1.14286rem;
+  font-size: 1.71429vw;
   color: #000000;
   background-color: #eee;
   border-radius: 10px;
@@ -39,13 +40,13 @@ input {
 }
 
 .wrapper input {
-  font-size: 1rem;
+  font-size: 1.5vw;
   margin: 5% auto;
 }
 
 .wrapper button {
   display: block;
-  font-size: 1.33333rem;
+  font-size: 2vw;
   margin: 5% auto;
   background-color: #eee;
   border-radius: 10px;
@@ -54,7 +55,7 @@ input {
 }
 
 .wrapper .result {
-  font-size: 1.33333rem;
+  font-size: 2vw;
   margin: 2.5%;
   text-align: center;
   padding-bottom: 30px;

@@ -1,6 +1,6 @@
 $size:100%;
 $main_color:#000000;
-$fz:4rem;
+$fz:6vw;
 
 %ta {
     text-align: center;
@@ -30,6 +30,7 @@ input {
     select {
         display: block;
         @extend%ta;
+        width: 60%;
         margin: $size/20 auto;
         border: 1px solid #999;
         font-size: $fz/3.5;
