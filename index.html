@@ -12,24 +12,24 @@
 <body>
     <div class="wrapper">
         <h1>Расчет стоимости земли</h1>
-        <select id="zemlia">
-            <option value="agriculture">
+        <select id="land">
+            <option value="agricultural">
                 Земли сельскохозяйственного назначения
             </option>
-            <option value="livingspace">
-                Земли жилищной и общественной застройки;
+            <option value="dwelling">
+                Земли жилищной и общественной застройки
             </option>
-            <option value="historical">
-                Земли историко-культурного назначения;
+            <option value="historica">
+                Земли историко-культурного назначения
             </option>
         </select>
-        <input type="text" id="shirina" value="" placeholder="укажите ширину участка">
-        <input type="text" id="dlina" value="" placeholder="укажите длину участка">
+        <input type="text" id="shirina" value="" placeholder="укажите ширину земли">
+        <input type="text" id="dlina" value="" placeholder="укажите длину земли">
         <button onclick="calcprice();">
             Рассчитать стоимость
         </button>
-        <div id="ploschad"></div>
-        <div id="price"></div>
+        <div id="ploschad"></div>   
+        <div id="stoimost"></div>
     </div>
 </body>
 </html>

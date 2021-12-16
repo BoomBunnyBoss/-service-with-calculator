@@ -1,0 +1,32 @@
+$size:100%;
+$main_color:#000000;
+$fz:4rem;
+
+body {
+    background-image: url(../img/back.jpg);
+}
+
+input {
+    display: flex;
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    margin: auto $size/5;
+    margin-top: 4%;
+    h1 {
+        text-align: center;
+        font-size: $fz/1.5;
+    }
+    select {
+        margin: $size/30;
+        height: 30px;
+        border: 1px solid #999;
+        font-size: $fz/3.5;
+        color: $main_color;
+        background-color: #eee;
+        border-radius: 10px;
+        box-shadow: 4px 4px #ccc;
+    }
+}
