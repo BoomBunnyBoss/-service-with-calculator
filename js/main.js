@@ -18,8 +18,13 @@ function calcprice() {
     dlina  = document.getElementById('dlina').value;
     if(shirina == ""){
         alert("Вы не указали ширину");
-        } else if(dlina == ""){
+        }
+        else if(dlina == ""){
         alert("Вы не указали длину");
+        }
+         else if(dlina == ""){
+        alert("Вы не указали длину");
+        
     } 
     else {
         ploschad = parseFloat (shirina)* parseFloat (dlina);
