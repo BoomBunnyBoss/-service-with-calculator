@@ -1,7 +1,7 @@
 function calcprice() {
     land  = document.getElementById('land').value;
     switch (land) {
-       case "agricultural":
+    case "agricultural":
             price = 1000;
             break
        case "dwelling":
